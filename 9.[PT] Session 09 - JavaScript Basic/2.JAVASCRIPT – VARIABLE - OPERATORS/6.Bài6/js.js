@@ -1,0 +1,10 @@
+let studentId = prompt('MSSV:');
+let studentName = prompt('Tên sinh viên:');
+let age = prompt('Nhập vào tuổi của bạn: ');
+let gradeHtml = +prompt('Nhập điểm HTML:');
+let gradeCss = +prompt('Nhập điểm Css:');
+let gradeJavascript = +prompt('Nhập điểm Javascript:');
+let average = (gradeHtml + gradeCss + gradeJavascript) / 3;
+document.write('Mã sinh viên: ', studentId + '<br>');
+document.write('Tên sinh viên: ', studentName + '<br>');
+document.write('Điểm trung bình: ', average + '<br>');
